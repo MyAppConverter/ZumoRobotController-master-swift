@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB22C9C719DB38E600708D9B /* ZumoRobotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22C9C619DB38E600708D9B /* ZumoRobotManager.swift */; };
+		FB34FF4E1A0E30E1007386A7 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = FB34FF4C1A0E30E1007386A7 /* iTunesArtwork */; };
+		FB34FF4F1A0E30E1007386A7 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = FB34FF4D1A0E30E1007386A7 /* iTunesArtwork@2x */; };
+		FB61A64219D9D128005C1FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61A64119D9D128005C1FA9 /* AppDelegate.swift */; };
+		FB61A64519D9D128005C1FA9 /* ZumoRobotController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB61A64319D9D128005C1FA9 /* ZumoRobotController.xcdatamodeld */; };
+		FB61A64B19D9D128005C1FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB61A64919D9D128005C1FA9 /* Main.storyboard */; };
+		FB61A64D19D9D128005C1FA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB61A64C19D9D128005C1FA9 /* Images.xcassets */; };
+		FB61A65019D9D128005C1FA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB61A64E19D9D128005C1FA9 /* LaunchScreen.xib */; };
+		FB61A66F19D9F143005C1FA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61A66E19D9F143005C1FA9 /* ViewController.swift */; };
+		FB61A67219D9F14F005C1FA9 /* ccJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61A67119D9F14F005C1FA9 /* ccJoystick.swift */; };
+		FBAF60551A0510A60080E287 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAF60541A0510A60080E287 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB22C9C619DB38E600708D9B /* ZumoRobotManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZumoRobotManager.swift; sourceTree = "<group>"; };
+		FB34FF4C1A0E30E1007386A7 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		FB34FF4D1A0E30E1007386A7 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		FB61A63919D9D128005C1FA9 /* ZumoRobotController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZumoRobotController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB61A63D19D9D128005C1FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB61A64119D9D128005C1FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB61A64419D9D128005C1FA9 /* ZumoRobotController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZumoRobotController.xcdatamodel; sourceTree = "<group>"; };
+		FB61A64A19D9D128005C1FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB61A64C19D9D128005C1FA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB61A64F19D9D128005C1FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB61A66E19D9F143005C1FA9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB61A67119D9F14F005C1FA9 /* ccJoystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ccJoystick.swift; sourceTree = "<group>"; };
+		FBAF60541A0510A60080E287 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB61A63619D9D128005C1FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAF60551A0510A60080E287 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB34FF501A0E3823007386A7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FB61A64119D9D128005C1FA9 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FB61A63019D9D128005C1FA9 = {
+			isa = PBXGroup;
+			children = (
+				FB61A63B19D9D128005C1FA9 /* ZumoRobotController */,
+				FB61A63A19D9D128005C1FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB61A63A19D9D128005C1FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB61A63919D9D128005C1FA9 /* ZumoRobotController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB61A63B19D9D128005C1FA9 /* ZumoRobotController */ = {
+			isa = PBXGroup;
+			children = (
+				FB61A66A19D9F0C1005C1FA9 /* Resources */,
+				FB61A66919D9F0BE005C1FA9 /* Classes */,
+				FB61A63C19D9D128005C1FA9 /* Supporting Files */,
+			);
+			path = ZumoRobotController;
+			sourceTree = "<group>";
+		};
+		FB61A63C19D9D128005C1FA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB34FF501A0E3823007386A7 /* AppDelegate */,
+				FB61A64319D9D128005C1FA9 /* ZumoRobotController.xcdatamodeld */,
+				FB61A63D19D9D128005C1FA9 /* Info.plist */,
+				FBAF60561A0510C60080E287 /* Frameworks */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB61A66819D9D302005C1FA9 /* ccJoystick */ = {
+			isa = PBXGroup;
+			children = (
+				FB61A67119D9F14F005C1FA9 /* ccJoystick.swift */,
+			);
+			name = ccJoystick;
+			sourceTree = "<group>";
+		};
+		FB61A66919D9F0BE005C1FA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB61A66C19D9F0EA005C1FA9 /* ZumoRobotManager */,
+				FB61A66B19D9F0D3005C1FA9 /* ViewController */,
+				FB61A66819D9D302005C1FA9 /* ccJoystick */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FB61A66A19D9F0C1005C1FA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB34FF4C1A0E30E1007386A7 /* iTunesArtwork */,
+				FB34FF4D1A0E30E1007386A7 /* iTunesArtwork@2x */,
+				FB61A64919D9D128005C1FA9 /* Main.storyboard */,
+				FB61A64E19D9D128005C1FA9 /* LaunchScreen.xib */,
+				FB61A64C19D9D128005C1FA9 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FB61A66B19D9F0D3005C1FA9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FB61A66E19D9F143005C1FA9 /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FB61A66C19D9F0EA005C1FA9 /* ZumoRobotManager */ = {
+			isa = PBXGroup;
+			children = (
+				FB22C9C619DB38E600708D9B /* ZumoRobotManager.swift */,
+			);
+			name = ZumoRobotManager;
+			sourceTree = "<group>";
+		};
+		FBAF60561A0510C60080E287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF60541A0510A60080E287 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB61A63819D9D128005C1FA9 /* ZumoRobotController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB61A65F19D9D129005C1FA9 /* Build configuration list for PBXNativeTarget "ZumoRobotController" */;
+			buildPhases = (
+				FB61A63519D9D128005C1FA9 /* Sources */,
+				FB61A63619D9D128005C1FA9 /* Frameworks */,
+				FB61A63719D9D128005C1FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZumoRobotController;
+			productName = ZumoRobotController;
+			productReference = FB61A63919D9D128005C1FA9 /* ZumoRobotController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB61A63119D9D128005C1FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "CƒÉtƒÉlin CrƒÉciun";
+				TargetAttributes = {
+					FB61A63819D9D128005C1FA9 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = W2R244HCV9;
+					};
+				};
+			};
+			buildConfigurationList = FB61A63419D9D128005C1FA9 /* Build configuration list for PBXProject "ZumoRobotController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB61A63019D9D128005C1FA9;
+			productRefGroup = FB61A63A19D9D128005C1FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB61A63819D9D128005C1FA9 /* ZumoRobotController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB61A63719D9D128005C1FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB34FF4F1A0E30E1007386A7 /* iTunesArtwork@2x in Resources */,
+				FB61A64B19D9D128005C1FA9 /* Main.storyboard in Resources */,
+				FB61A65019D9D128005C1FA9 /* LaunchScreen.xib in Resources */,
+				FB61A64D19D9D128005C1FA9 /* Images.xcassets in Resources */,
+				FB34FF4E1A0E30E1007386A7 /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB61A63519D9D128005C1FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB61A64519D9D128005C1FA9 /* ZumoRobotController.xcdatamodeld in Sources */,
+				FB61A64219D9D128005C1FA9 /* AppDelegate.swift in Sources */,
+				FB61A66F19D9F143005C1FA9 /* ViewController.swift in Sources */,
+				FB22C9C719DB38E600708D9B /* ZumoRobotManager.swift in Sources */,
+				FB61A67219D9F14F005C1FA9 /* ccJoystick.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB61A64919D9D128005C1FA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB61A64A19D9D128005C1FA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB61A64E19D9D128005C1FA9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB61A64F19D9D128005C1FA9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB61A65D19D9D129005C1FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB61A65E19D9D129005C1FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB61A66019D9D129005C1FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZumoRobotController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB61A66119D9D129005C1FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZumoRobotController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB61A63419D9D128005C1FA9 /* Build configuration list for PBXProject "ZumoRobotController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB61A65D19D9D129005C1FA9 /* Debug */,
+				FB61A65E19D9D129005C1FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB61A65F19D9D129005C1FA9 /* Build configuration list for PBXNativeTarget "ZumoRobotController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB61A66019D9D129005C1FA9 /* Debug */,
+				FB61A66119D9D129005C1FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB61A64319D9D128005C1FA9 /* ZumoRobotController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB61A64419D9D128005C1FA9 /* ZumoRobotController.xcdatamodel */,
+			);
+			currentVersion = FB61A64419D9D128005C1FA9 /* ZumoRobotController.xcdatamodel */;
+			path = ZumoRobotController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB61A63119D9D128005C1FA9 /* Project object */;
+}

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ZumoRobotController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="d9o-T0-om2">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1D-4X-HhU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleColor" red="0.68235296010000002" green="0.231372565" blue="0.231372565" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="82" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="lightRedLed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lhq-wk-qnP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZx-fK-cTg">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Blue">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="258" y="82" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="lightBlueLed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TvP-SR-5Ia"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kwg-8x-fNG">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Green">
+                                    <color key="titleColor" red="0.0" green="0.934160769" blue="0.030059457979999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="137" y="82" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="lightGreenLed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Dxg-hm-SAj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zumo Robot Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjE-MP-JJ3">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="71" y="28" width="179" height="21"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJZ-c4-HwK" customClass="ccJoystick" customModule="ZumoRobotController" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="70" y="297" width="180" height="180"/>
+                                </variation>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="➤  Press &quot;Connect&quot; to connect to the device" translatesAutoresizingMaskIntoConstraints="NO" id="GY5-82-DQ9">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="132" width="288" height="95"/>
+                                </variation>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robotImage" translatesAutoresizingMaskIntoConstraints="NO" id="C8E-GL-U3S">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="28" width="53" height="50"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfg-ri-F11">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Disconnect">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="226" y="518" width="78" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="disconnectButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R1K-Z3-6Jg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLf-Ae-zra">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="137" y="518" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="clearButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PVX-i6-FIk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvR-EC-rBE">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Connect">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="16" y="518" width="61" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="connectButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TaT-pe-VKf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.057162404044341773" green="0.29713397790055252" blue="0.2935987290947214" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hfg-ri-F11" firstAttribute="top" secondItem="d9o-T0-om2" secondAttribute="bottom" constant="-50" id="D6F-eq-HlU"/>
+                            <constraint firstItem="kvR-EC-rBE" firstAttribute="top" secondItem="d9o-T0-om2" secondAttribute="bottom" constant="-50" id="NYR-4J-oIN"/>
+                            <constraint firstItem="d9o-T0-om2" firstAttribute="leading" secondItem="kvR-EC-rBE" secondAttribute="trailing" constant="-77" id="REB-Xx-ysI"/>
+                            <constraint firstItem="Hfg-ri-F11" firstAttribute="leading" secondItem="d9o-T0-om2" secondAttribute="trailing" constant="-94" id="eQe-gx-RgM"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="d9o-T0-om2"/>
+                                <exclude reference="b1D-4X-HhU"/>
+                                <exclude reference="XZx-fK-cTg"/>
+                                <exclude reference="Kwg-8x-fNG"/>
+                                <exclude reference="MjE-MP-JJ3"/>
+                                <exclude reference="HJZ-c4-HwK"/>
+                                <exclude reference="GY5-82-DQ9"/>
+                                <exclude reference="C8E-GL-U3S"/>
+                                <exclude reference="Hfg-ri-F11"/>
+                                <exclude reference="vLf-Ae-zra"/>
+                                <exclude reference="kvR-EC-rBE"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="D6F-eq-HlU"/>
+                                <exclude reference="eQe-gx-RgM"/>
+                                <exclude reference="NYR-4J-oIN"/>
+                                <exclude reference="REB-Xx-ysI"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="d9o-T0-om2"/>
+                                <include reference="b1D-4X-HhU"/>
+                                <include reference="XZx-fK-cTg"/>
+                                <include reference="Kwg-8x-fNG"/>
+                                <include reference="MjE-MP-JJ3"/>
+                                <include reference="HJZ-c4-HwK"/>
+                                <include reference="GY5-82-DQ9"/>
+                                <include reference="C8E-GL-U3S"/>
+                                <include reference="Hfg-ri-F11"/>
+                                <include reference="vLf-Ae-zra"/>
+                                <include reference="kvR-EC-rBE"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="D6F-eq-HlU"/>
+                                <include reference="eQe-gx-RgM"/>
+                                <include reference="NYR-4J-oIN"/>
+                                <include reference="REB-Xx-ysI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="joystick" destination="HJZ-c4-HwK" id="yXT-Zy-dHM"/>
+                        <outlet property="robotsConsole" destination="GY5-82-DQ9" id="QAW-iN-Yug"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166.5" y="151"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="320" height="480"/>
+        <image name="robotImage" width="135" height="134"/>
+    </resources>
+</document>

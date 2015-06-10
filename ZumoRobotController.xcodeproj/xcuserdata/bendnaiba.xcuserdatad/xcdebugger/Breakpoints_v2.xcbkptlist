@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ViewController.swift"
+            timestampString = "455636645.47261"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "lightGreenLed(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ViewController.swift"
+            timestampString = "455636647.616646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "lightRedLed(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.lightRedLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636855.819024"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.lightRedLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636855.819174"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ViewController.swift"
+            timestampString = "455636650.290526"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "disconnectButtonPressed(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.disconnectButtonPressed (ZumoRobotController.ViewController)(ObjectiveC.UIButton) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636855.819948"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.disconnectButtonPressed (ZumoRobotController.ViewController)(ObjectiveC.UIButton) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636855.820105"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ViewController.swift"
+            timestampString = "455636654.864405"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "clearButtonPressed(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.clearButtonPressed (ZumoRobotController.ViewController)(ObjectiveC.UIButton) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636855.820852"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.clearButtonPressed (ZumoRobotController.ViewController)(ObjectiveC.UIButton) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636855.820999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.clearButtonPressed (ZumoRobotController.ViewController)(ObjectiveC.UIButton) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636855.821136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.clearButtonPressed (ZumoRobotController.ViewController)(ObjectiveC.UIButton) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636855.821271"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ViewController.swift"
+            timestampString = "455636873.841965"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "lightGreenLed(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.lightGreenLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636873.84575"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.lightGreenLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636873.845979"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "267">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.lightGreenLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636873.846165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.lightGreenLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455636873.846349"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "283">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455638232.282784"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "alloc()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ViewController.swift"
+            timestampString = "455638847.225013"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "connectButtonPressed(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.connectButtonPressed (ZumoRobotController.ViewController)(ObjectiveC.UIButton) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639224.487367"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.connectButtonPressed (ZumoRobotController.ViewController)(ObjectiveC.UIButton) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639224.487577"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639037.97063"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "centralManagerDidUpdateState(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.centralManagerDidUpdateState (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBCentralManager&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.602748"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "232"
+                  endingLineNumber = "232"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.centralManagerDidUpdateState (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBCentralManager&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.602922"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "232"
+                  endingLineNumber = "232"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639089.374255"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "centralManager(_:didDiscoverPeripheral:advertisementData:RSSI:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639091.837811"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "centralManager(_:didConnectPeripheral:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.centralManager (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBCentralManager&gt;, didConnectPeripheral : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.605922"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.centralManager (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBCentralManager&gt;, didConnectPeripheral : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.606084"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639093.713995"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "peripheral(_:didDiscoverServices:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.peripheral (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, didDiscoverServices : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.607307"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.peripheral (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, didDiscoverServices : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.607454"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639095.16889"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "peripheral(_:didDiscoverCharacteristicsForService:error:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.peripheral (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, didDiscoverCharacteristicsForService : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBService&gt;, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.608351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.peripheral (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, didDiscoverCharacteristicsForService : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBService&gt;, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.608493"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639097.953402"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "peripheral(_:didDiscoverDescriptorsForCharacteristic:error:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.peripheral (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, didDiscoverDescriptorsForCharacteristic : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBCharacteristic&gt;, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.609261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.peripheral (ZumoRobotController.ZumoRobotManager)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, didDiscoverDescriptorsForCharacteristic : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBCharacteristic&gt;, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.609403"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639103.209752"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "peripheral(_:didUpdateValueForCharacteristic:error:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639105.609646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "centralManager(_:didFailToConnectPeripheral:error:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.centralManager (ZumoRobotController.ZumoRobotManager)(ObjectiveC.CBCentralManager, didFailToConnectPeripheral : ObjectiveC.CBPeripheral, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.610642"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.centralManager (ZumoRobotController.ZumoRobotManager)(ObjectiveC.CBCentralManager, didFailToConnectPeripheral : ObjectiveC.CBPeripheral, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.610788"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639106.969219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "centralManager(_:didDisconnectPeripheral:error:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.centralManager (ZumoRobotController.ZumoRobotManager)(ObjectiveC.CBCentralManager, didDisconnectPeripheral : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.611544"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.centralManager (ZumoRobotController.ZumoRobotManager)(ObjectiveC.CBCentralManager, didDisconnectPeripheral : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639224.611679"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639236.349571"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "connectToDevice()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.connectToDevice (ZumoRobotController.ZumoRobotManager)() -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639236.353248"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.connectToDevice (ZumoRobotController.ZumoRobotManager)() -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639236.353492"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "209">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.connectToDevice (ZumoRobotController.ZumoRobotManager)() -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639236.353697"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "215">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.connectToDevice (ZumoRobotController.ZumoRobotManager)() -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639236.353889"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ZumoRobotManager.swift"
+            timestampString = "455639237.88373"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "connectToDevice()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ZumoRobotManager.connectToDevice (ZumoRobotController.ZumoRobotManager)() -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639237.88695"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "250"
+                  endingLineNumber = "250"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ZumoRobotManager.connectToDevice (ZumoRobotController.ZumoRobotManager)() -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ZumoRobotManager.swift"
+                  timestampString = "455639237.887199"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "250"
+                  endingLineNumber = "250"
+                  offsetFromSymbolStart = "122">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZumoRobotController/ViewController.swift"
+            timestampString = "455639295.380101"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "log(_:silently:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.log (ZumoRobotController.ViewController)(ObjectiveC.NSString, silently : Swift.Bool) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639295.385129"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.lightBlueLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639295.385371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.lightBlueLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639295.385564"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.lightGreenLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639295.385757"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.lightGreenLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639295.385947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZumoRobotController.ViewController.lightRedLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639295.386133"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ZumoRobotController.ViewController.lightRedLed (ZumoRobotController.ViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639295.386326"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Exploded, Arg[2] = Owned To Guaranteed&gt; of ZumoRobotController.ViewController.log (ZumoRobotController.ViewController)(ObjectiveC.NSString, silently : Swift.Bool) -&gt; ()"
+                  moduleName = "ZumoRobotController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bendnaiba/Desktop/Mohamed/Swift/Example/output/ZumoRobotController-master-2/ZumoRobotController/ViewController.swift"
+                  timestampString = "455639295.386512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
